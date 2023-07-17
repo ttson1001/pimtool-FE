@@ -1,0 +1,48 @@
+.wrapper{
+    height:90px;
+    width: 100%;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+}
+
+.inner {
+    height: 100px;
+    width: 660px;
+    display: inline-flex;
+    align-items: center;
+    
+    
+}
+.content {
+    height: auto;
+    max-width: 100px;
+    display: flex;
+}
+
+.content img {
+    object-fit: fill;
+    height:80%;
+    width: 80%;
+    display: inline;
+}
+
+.title p {
+    display: inline;
+    font-weight: 700;
+    font-size: 30px;
+    color: lightgray;
+}
+
+.lagnguae {
+    display: flex;
+    
+}
+
+.body {
+    height: 100px;
+    width: 180px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
